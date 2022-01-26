@@ -43,10 +43,10 @@ include picture of different screensizes here
 
 ### Wireframes
 
-* Home Page Wireframe - View link
-* Mobile Wireframe - View link
-* Gallery Page Wireframe - View link
-* Timetable Page Wireframe - View link
+* Home Page Wireframe - [View](https://share.balsamiq.com/c/wcDidgzBGrRnwUU5zMEy4C.png)
+* Mobile Wireframe - [View](https://share.balsamiq.com/c/9QLVk78Zx9n3GGKZbMNn8Q.png)
+* Gallery Page Wireframe - [View](https://share.balsamiq.com/c/2CRQfKaw6aEbVEZGiiE2qj.png)
+* Timetable Page Wireframe - [View](https://share.balsamiq.com/c/eUZEZ6Ui7hyF8uUzGNnunX.png)
 
 
 ## Features
