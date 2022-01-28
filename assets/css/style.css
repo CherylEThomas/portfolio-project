@@ -135,7 +135,7 @@
 }
 
 #hero-image{
-    height:400px;
+    height:600px;
     width: 100%;
     background: url("/assets/images/blank\ logo2.jpg") no-repeat center center;
 
@@ -145,7 +145,7 @@ animation-name: hero-zoom;
 }
 
 #hero-outer{
-    height:400px;
+    height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -156,34 +156,42 @@ animation-name: hero-zoom;
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.5);
     }
 }
 
-
-
-/*Jumbotron*/
-
-/* .jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron-header{
+#cover-text {
+    z-index: 2;
     color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
+    position: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 390px;
 }
 
-.jumbotron .lead {
-    margin: 25px 0;
-    color: #a7a7a7;
+#cover-text h1 {
+    font-size: 300%;
+    margin-bottom: 70px;
 }
 
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
+#cover-text p {
+    font-size: 200%;
+}
+/* #cover-text {
+    
+       
+    height: 200px;
+    
+    
+    margin-bottom: 50px;
+    
+    right: 150px;
 } */
+
+
 
 /* Buttons */
 
