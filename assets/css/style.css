@@ -119,6 +119,11 @@
 
 .navbar-brand {
     font-weight: bold;
+    font-size: xx-large;
+}
+
+.navbar-brand .far {
+    color: #eec702e7;
 }
 
 .navbar .navbar-nav a {
@@ -194,6 +199,7 @@
 
 footer{
     height: 150px;
+    background-color: #eec702e7;
 }
 
 .social-networks{
@@ -208,6 +214,6 @@ footer{
 .social-networks i{
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
-    color: #777777;
+    padding: 3%;
+    color: rgba(107, 2, 37, 1);
 }
