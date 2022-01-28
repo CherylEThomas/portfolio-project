@@ -4,12 +4,12 @@
 
 .container-wrapper{}
 
-.container-wrapper-red {
+/* .container-wrapper-red {
     background-color: #f05f40;
     color: white;
-}
+} */
 
-.alert-container .col-12 {
+/* .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -20,9 +20,9 @@
     padding: 5px 15px;
     background-color: #eec802;
     border-color: #eec802;
-}
+} */
 
-.callout-container {
+/* .callout-container {
     height: 100vh;
 
     background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
@@ -49,11 +49,11 @@
 
 .features-container {}
 
-.favorites-container {}
+.favorites-container {} */
 
 /* Page headers */
 
-.page-header {
+/* .page-header {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
@@ -61,15 +61,15 @@
 
 .page-header h2 {
     margin-top: 0;
-}
+} */
 
-.quotes .page-header {
+/* .quotes .page-header {
     margin-bottom: 25px;
-}
+} */
 
 /* Block dividers */
 
-.block-divider {
+/* .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
@@ -86,14 +86,14 @@
 
 .block-divider-short {
     width: 35px;
-}
+} */
 
 /* Content containers */
 
-.content-container {
+/* .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
-}
+} */
 
 /* Navbar */
 
@@ -123,16 +123,48 @@
 }
 
 .navbar-brand .far {
-    color: #eec702e7;
+    color: rgb(230, 196, 4);
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
 }
 
+.hero {
+    background-color: black;
+}
+
+#hero-image{
+    height:400px;
+    width: 100%;
+    background: url("/assets/images/blank\ logo2.jpg") no-repeat center center;
+
+animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer{
+    height:400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+
 /*Jumbotron*/
 
-.jumbotron {
+/* .jumbotron {
     background-color: transparent;
 }
 
@@ -151,11 +183,11 @@
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
-}
+} */
 
 /* Buttons */
 
-.btn-cta {
+/* .btn-cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
@@ -174,9 +206,9 @@
     background-color: #df4929;
     border-color: #df4929;
     color: white;
-}
+} */
 
-.feature {
+/* .feature {
     text-align: center;
     margin-bottom: 40px;
 }
@@ -195,16 +227,15 @@
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
-}
+} */
 
 footer{
     height: 150px;
-    background-color: #eec702e7;
-}
-
-.social-networks{
+    background-color: rgb(230, 196, 4);
+} 
+    
+.social-networks {
     text-align: center;
-
 }
 
 .social-networks li{
