@@ -1,55 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
 
-/* Containers */
 
-.container-wrapper{}
-
-/* .container-wrapper-red {
-    background-color: #f05f40;
-    color: white;
-} */
-
-/* .alert-container .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.site-wide-alert {
-    border-radius: 0;
-    margin-bottom: 0;
-    padding: 5px 15px;
-    background-color: #eec802;
-    border-color: #eec802;
-} */
-
-/* .callout-container {
-    height: 100vh;
-
-    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.quotes-container {}
-
-.features-container {}
-
-.favorites-container {} */
 
 /* Page headers */
 
@@ -67,36 +18,10 @@
     margin-bottom: 25px;
 } */
 
-/* Block dividers */
 
-/* .block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
 
-.block-divider-orange {
-    background-color: #f05f40;
-}
-
-.block-divider-white {
-    background-color: white;
-}
-
-.block-divider-short {
-    width: 35px;
-} */
-
-/* Content containers */
-
-/* .content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-} */
 
 /* Navbar */
-
 .navalert-container {
     position: absolute;
     top: 0;
@@ -130,6 +55,7 @@
     font-weight: bold;
 }
 
+/* Callout */
 .hero {
     background-color: black;
 }
@@ -138,8 +64,7 @@
     height:600px;
     width: 100%;
     background: url("/assets/images/blank\ logo2.jpg") no-repeat center center;
-
-animation-name: hero-zoom;
+    animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -180,16 +105,19 @@ animation-name: hero-zoom;
 #cover-text p {
     font-size: 200%;
 }
-/* #cover-text {
-    
-       
-    height: 200px;
-    
-    
-    margin-bottom: 50px;
-    
-    right: 150px;
-} */
+
+/* Intro */
+
+.intro-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+} 
+.meet {
+    text-align: center;
+    margin: 50px;
+}
+
+
 
 
 
@@ -216,27 +144,56 @@ animation-name: hero-zoom;
     color: white;
 } */
 
-/* .feature {
+/* Intro */
+
+.coach-pic{
+    background: url("../images/coach.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.assistant-pic{
+    background: url("../images/assistant.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.squad-pic{
+    background: url("../images/squad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+.intro {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.feature i {
+.intro i {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
 }
 
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-} */
-
+/* Footer */
 footer{
     height: 150px;
     background-color: rgb(230, 196, 4);
@@ -246,11 +203,11 @@ footer{
     text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 3%;

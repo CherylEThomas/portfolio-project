@@ -195,6 +195,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
+* Stock Images for the Coach and Assistant were used from [pexels.com](https://www.pexels.com/)
 * All Images were created by the developer.
 
 ### Acknowledgements
