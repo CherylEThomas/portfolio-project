@@ -119,9 +119,9 @@
 
 .border {
     border-color: rgba(107, 2, 37, 1)!important;
-    border-style: solid;
-    border-width: thick;
+    border-radius: 20px;
 }
+
 .coach-pic{
     background: url("../images/coach1.jpg");
     background-position: center;
@@ -157,6 +157,36 @@
     line-height: 45px;
 }
 
+/* -----------------------------------Join */
+
+.container-join {
+    padding-top: 25px;
+    padding-bottom: 50px;
+} 
+.btn-join {
+    font-weight: bold;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: rgba(107, 2, 37, 1);
+    border-color: #000;
+} 
+
+/* .btn-join:hover,
+.btn-join:active,
+.btn-join:focus,
+.btn-join:active:focus {
+    background-color: rgba(107, 2, 37, 1);
+    border-color: #000;
+    color: white;
+} */
+
+
+
+
+
+
 /* -----------------------------------Footer */
 footer{
     height: 150px;
@@ -185,25 +215,4 @@ footer{
 
 
 
-/* Buttons */
 
-/* .btn-cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn-red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn-red:hover,
-.btn-red:active,
-.btn-red:focus,
-.btn-red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-} */
