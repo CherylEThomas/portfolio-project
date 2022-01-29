@@ -208,8 +208,30 @@ footer{
     color: rgba(107, 2, 37, 1);
 }
 
+/* -----------------------------------Gallery */
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 1px;
+}
 
+#photo img{
+    width: 100%;
+    padding-top: 1px;
+}
 
+@media screen and (max-width: 943px){
+    #photo{
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
+}
 
 
 
