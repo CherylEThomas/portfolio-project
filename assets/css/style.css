@@ -238,7 +238,6 @@ footer{
 /* -----------------------------------Training */
 .container-training {
     padding-top: 25px;
-    padding-bottom: 25px;
 } 
 .timetable {
     text-align: center;
@@ -277,4 +276,59 @@ footer{
         height: 250px;
         padding-top: 30px;
     }
+}
+
+/* -----------------------------------Upcoming */
+.container-upcoming {
+    padding-bottom: 25px;
+} 
+
+.timeline {
+    text-align: center;
+    margin: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+    border-color: rgba(107, 2, 37, 1);
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.bullet-line{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: rgba(107, 2, 37, 1);
+}
+
+.fixture-items {
+    margin-bottom: 30px;
 }
