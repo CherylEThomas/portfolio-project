@@ -64,7 +64,7 @@
 #hero-image{
     height:600px;
     width: 100%;
-    background: url("assets/images/blank\ logo2.jpg") no-repeat center center;
+    background: url("assets/images/blanklogo") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
