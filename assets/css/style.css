@@ -86,6 +86,36 @@
     font-size: 200%;
 }
 
+/* -----------------------------------CalloutSub */
+.hero-sub {
+    background-color: black;
+}
+
+.hero-image-sub {
+    height: 200px;
+    width: 100%;
+    background: url("../images/blanklogo.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer-sub {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(0.9);
+    }
+}
+
 /* -----------------------------------Intro */
 
 .intro-container {
@@ -157,6 +187,8 @@ footer{
     
 .social-networks {
     text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
 }
 
 .social-networks li {
@@ -271,7 +303,7 @@ footer{
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em;
+    top: 2.8em;
     position: absolute;
     left: -6px;
     border-radius: 12px;
@@ -283,6 +315,17 @@ footer{
     margin-bottom: 30px;
 }
 
+/* -----------------------------------Modal */
 .modal .modal-title {
     color: rgba(107, 2, 37, 1);
 }
+
+.btn-submit {
+    font-weight: bold;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgba(107, 2, 37, 1);
+    border-color: #000;
+} 
