@@ -18,8 +18,8 @@
         <a href="/" class="navbar-brand"><i class="far fa-star"> </i> All Stars Gymnastics</a>
             
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">   
             <ul class="navbar-nav ml-auto">
@@ -31,11 +31,9 @@
     </nav>
 <!-- /.NavBar -->
 
-
-
 <!-- Callout -->
     <section class="hero" id="hero-outer">
-        <div id="hero-image"></div>
+        <div class="hero-image"></div>
         <div id="cover-text">
             <h1>All Stars Gymnastics Club</h1>
             <p>Competitive Squad</p>
@@ -51,50 +49,48 @@
                     <h2 class="text-uppercase meet">Meet The Squad:</h2>
                 </div>
             </div>  
-
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="intro">
-                            <h3>Coach</h3>
-                            <div class="col coach-pic border"></div>
-                            <p>Coach Cara has been the anchor of our squad for over ten years now.  Having had a highly successful gymnastics career of her own she has extensive knowledge and skills to share.  </p>
-                        </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="intro">
+                        <h3>Coach</h3>
+                        <div class="col coach-pic border"></div>
+                        <p>Coach Cara has been the anchor of our squad for over ten years now.  Having had a highly successful gymnastics career of her own she has extensive knowledge and skills to share.  </p>
                     </div>
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="intro">
-                            <h3>Assistant</h3>
-                            <div class="col assistant-pic border"></div>
-                            <p>Assistant Brooke is an invaluable part of the squad.  She is always on hand to help fine-tune skills, practice routines, provide support and encouragement. </p>
-                        </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="intro">
+                        <h3>Assistant</h3>
+                        <div class="col assistant-pic border"></div>
+                        <p>Assistant Brooke is an invaluable part of the squad.  She is always on hand to help fine-tune skills, practice routines, provide support and encouragement. </p>
                     </div>
-                
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="intro">
-                            <h3>The Squad</h3>
-                            <div class="col squad-pic border"></div>
-                            <p>Our squad girls are the pride of our club. Their dedication, hard work and resiliance is clearly demonstrated in their results, placing highly in all competitions entered.</p>
-                        </div>
+                </div>                
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="intro">
+                        <h3>The Squad</h3>
+                        <div class="col squad-pic border"></div>
+                        <p>Our squad girls are the pride of our club. Their dedication, hard work and resiliance is clearly demonstrated in their results, placing highly in all competitions entered.</p>
                     </div>
-        </section>
+                </div>
+            </div>
+    </section>
 </div>
 <!-- /.Intro -->
 <hr>
 
-<!-- Join -->
+<!-- JoinModalButton -->
 <section class="container-fluid container-join">
     <div class="col">
         <div class="center-form">
             <div class="form-row text-center">
                 <div class="col">
-                    <button type="submit" class="btn btn-join">Apply to Join Our Squad!</button>
+                    <button type="submit" class="btn btn-join" data-toggle="modal" data-target="#JoinModal">Apply to Join Our Squad!</button>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- /.Join -->
-
+<!-- /.JoinModalButton -->
+  
 <!-- Footer -->
 <footer class="footer">
     <ul class="social-networks">
@@ -104,9 +100,44 @@
         <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"> </i></li>
       </ul>
 </footer>
-
-</div>
 <!-- /.Footer -->
+</div>
+
+<!-- Modal -->
+<div class="modal" tabindex="-1" role="dialog" id="JoinModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Apply to Join Our Squad!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Please provide your details below and we will contact you to arrange a trial.</p>
+            <form>
+                <div class="form-group">
+                    <label for="experience">Experience</label>
+                    <input type="text" class="form-control" id="experience" placeholder="Please provide details of your / your child's experience">
+                </div>
+                <div class="form-group">
+                    <label for="grade">Grade</label>
+                    <input type="text" class="form-control" id="grade" placeholder="Please enter your current Grade">
+                </div>
+                <div class="form-group">
+                  <label for="InputEmail">Email address</label>
+                  <input type="email" class="form-control" id="InputEmail" placeholder="Enter parents email if under 18">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- /.Modal -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

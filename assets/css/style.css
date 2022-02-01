@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
 
-
-
-/* Page headers */
-
-/* .page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-} */
-
-/* .quotes .page-header {
-    margin-bottom: 25px;
-} */
-
-
-
-
 /* -----------------------------------Navbar */
 .navalert-container {
     position: absolute;
@@ -61,10 +40,10 @@
     background-color: black;
 }
 
-#hero-image{
+.hero-image{
     height:600px;
     width: 100%;
-    background: url("assets/images/blanklogo") no-repeat center center;
+    background: url("../images/blanklogo.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -113,6 +92,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
 } 
+
 .meet {
     text-align: center;
     margin: 50px;
@@ -123,7 +103,7 @@
     border-radius: 20px;
 }
 
-.coach-pic{
+.coach-pic {
     background: url("../images/coach1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +111,7 @@
     min-height: 360px;
 }
 
-.assistant-pic{
+.assistant-pic {
     background: url("../images/assistant1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -139,7 +119,7 @@
     min-height: 360px;
 }
 
-.squad-pic{
+.squad-pic {
     background: url("../images/squad1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -152,18 +132,13 @@
     margin-bottom: 40px;
 }
 
-/* .intro i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-} */
-
 /* -----------------------------------Join */
 
 .container-join {
     padding-top: 25px;
     padding-bottom: 50px;
 } 
+
 .btn-join {
     font-weight: bold;
     border-radius: 20px;
@@ -173,20 +148,6 @@
     background-color: rgba(107, 2, 37, 1);
     border-color: #000;
 } 
-
-/* .btn-join:hover,
-.btn-join:active,
-.btn-join:focus,
-.btn-join:active:focus {
-    background-color: rgba(107, 2, 37, 1);
-    border-color: #000;
-    color: white;
-} */
-
-
-
-
-
 
 /* -----------------------------------Footer */
 footer{
@@ -234,20 +195,15 @@ footer{
     }
 }
 
-
 /* -----------------------------------Training */
 .container-training {
     padding-top: 25px;
 } 
+
 .timetable {
     text-align: center;
     margin: 50px;
 }
-
-/* .border {
-    border-color: rgba(107, 2, 37, 1)!important;
-    border-radius: 20px;
-} */
 
 .days {
     background-position: center;
@@ -258,12 +214,6 @@ footer{
     padding: 40px 0 0 10px;
     margin-bottom: 40px;
 }
-
-/* .days div {
-    width: 19%;
-    float: left;
-    margin: 1px;
-} */
 
 .days i {
     color: rgb(230, 196, 4);
@@ -331,4 +281,8 @@ footer{
 
 .fixture-items {
     margin-bottom: 30px;
+}
+
+.modal .modal-title {
+    color: rgba(107, 2, 37, 1);
 }
