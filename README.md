@@ -145,7 +145,7 @@ The link created for the site is [here](https://cherylethomas.github.io/portfoli
 
 ### Code
 
-* The full-screen hero image code came from [] add link!
+* The Code Institute tutorial projects for Love Running, Whiskey Drop and Rosie's Resume were utilised for inspiration and code elements throughout the project.  Comments in the code indicate where these were used more clearly.  Where code from tutorial projects was used, this was modified and altered by myself to suit this project.  
 
 * [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/download/) Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
