@@ -1,13 +1,14 @@
 # ALL STARS SQUAD WEBSITE
 
-view the live project here - make into a link
+## View the live project [here](https://cherylethomas.github.io/portfolio-project/)
+***
 
-This website is designed to be a homepage for my daughter's gymnastics squad.  This is a competitive squad and the website will document their achievements for squad members as well as showcase the squad for potential new gymnasts.  
+![AmI.responsive design](/assets/readme-images/amiresponsive.png)
 
-include picture of different screensizes here
+This website is designed to be a homepage for my daughter's gymnastics squad.  This is a competitive squad and the website will document their achievements in a gallery for the squad members as well as showcase the squad for potential new gymnasts.  
 
 ## User Experience (UX)
-<hr>
+***
 
 ### User Stories
 
@@ -23,67 +24,104 @@ include picture of different screensizes here
 
 #### Frequent User Goals
 
-* Frequent users should be able to view photos of their achievements on the gallery page.
-* Frequent users should be able to access social media links.
+* Frequent users (i.e. members) should be able to view photos of their achievements on the gallery page.
+* Frequent users (i.e. members) should be able to access social media links.
 
 ### Design
 
 #### Colour Scheme
 
-* The squad colours are black, maroon and gold.  The site uses these colours along with an off-white tone to prevent the site appearing too dark.
+* The squad colours are black, maroon and gold.  The site uses corresponding maroon, yellow and black colours along with a basic white to prevent the site appearing too dark.
+
+![Colour Palette](assets/readme-images/colour-palette.png)
+
+* The colour scheme was checked for colour contrast suitability using [Coolors](https://coolors.co/) to ensure that the chosen colours would be suitably accessible.
+
+![Colour Contrasts](assets/readme-images/colour-contrast-checker1.png)
+![Colour Contrasts](assets/readme-images/colour-contrast-checker2.png)
 
 #### Typography
 
-* The -------- font is the main font for the site.  Sans Serif is also used in case the main font cannot be used for any reason. ------- is a simple, clear font which is easily read.
+* The [Google fonts](https://fonts.google.com/) font "Poppins" is the main font for the site.  Poppins is a simple, clear font which is easily read and understood.
 
 #### Imagery
 
 * The large background hero image is the gymnastics club logo.  This clearly identifies the site and the club which the squad is part of.  
-* Images on the gallery page are partly of my daughter who is a member of the squad and partly stock gymnast images as I do not have permission to include images of the other children in the squad yet.
+* Images of the Coach and Assistant on the home page are stock images from [Pexels](https://www.pexels.com/) as I did not have permission to include images of the club staff.
+* Images on the gallery page are of my daughter and other members of the squad. Permission was sought and granted from their parents to include images of the other children in the squad.
 
 ### Wireframes
+
+Wireframes were produced using [Balsamiq](https://balsamiq.com/) to help form a visual guide of how I wanted the site to look once finished:
 
 * Home Page Wireframe - [View](https://share.balsamiq.com/c/wcDidgzBGrRnwUU5zMEy4C.png)
 * Mobile Wireframe - [View](https://share.balsamiq.com/c/9QLVk78Zx9n3GGKZbMNn8Q.png)
 * Gallery Page Wireframe - [View](https://share.balsamiq.com/c/2CRQfKaw6aEbVEZGiiE2qj.png)
 * Timetable Page Wireframe - [View](https://share.balsamiq.com/c/eUZEZ6Ui7hyF8uUzGNnunX.png)
 
-
 ## Features
-<hr>
+***
 
-* Responsive on all device sizes
-* Interactive elements
+### Navigation Bar
+* The navigation bar is fully responsive.  It features buttons which link to the Home, Gallery and Timetable pages.  These links are fully visible on larger screens, but collapse down on mobile screens.  The club name on the right hand side of the navigation bar also acts as a link back to the home page which is always accessible on every page at all screen sizes. 
+![Navigation Bar](assets/readme-images/navbar1.png)
+![Navigation Bar](assets/readme-images/navbar2.png)
+
+### Hero Image
+* The Home page features a hero image to present the club logo and the main header of the club name to the user.  I initially planned to use this same format on all pages to maintain a consistent design across the site, however in reality this looked too large on the Gallery and Timetable pages and so I reduced the size of the hero image and omitted the text for these pages which works better visually for the sub pages. I utilised an animation effect on the hero image to draw the eye at first glance.
+![Hero Image](assets/readme-images/hero1.png)
+![Hero Image](assets/readme-images/hero2.png)
+
+### Meet the Squad
+* The Home page features photos and introductions to the members of the squad.  The section of the page is responsive to screen sizes.  On a large screen all three sections are visible side by side.  On a medium size screen this reduces to two sections side by side and on a mobile screen the sections run singly one after each other.
+
+### Application Modal
+* The Home page also features a button which takes the user to an interactive pop-up modal where they can apply to join the squad.
+![Modal](assets/readme-images/modal.png)
+
+### Footer
+* All pages feature the same footer which provides links to the squad's various social media platforms via their corresponding icons.
+
+### Gallery
+* The Gallery page features photos from the squads competitions, club sessions and a photoshoot.  It gives a visual guide to the squad to users and provides a record of achievements to squad members.  This page is responsive to screen sizes.  Images are shown in four columns on larger screens and in two colums on medium and mobile screens.
+
+### Timetable
+* The Timetable page provides information on when and where the squads meets and trains and also has a timeline for upcoming events. 
+
+### Future Features
+Additional features which could be included in the future include:
+* Addition of a Contact button to allow the user to get in touch with the squad management team.
+* Links on the Upcoming Events section to allow users to register at events directly from the page.
+* A page with links to the main gymnastics club site and the various other teams and groups of the club.
+* A members only page which requires log-in details and which could allow members to access their training schedules, gradings, etc.
+* Provide Welsh language versions of the pages for bilingual users. 
 
 ## Technologies Used
-<hr>
+***
 
-### Languages Used
+The following technologies were used in the production and testing of the site:
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
-
-### Frameworks, Libraries & Programs Used
-
-1. [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/download/)
-    * Bootstrap was used to assist with the responsiveness and styling of the website.
-2. [Hover.css](https://ianlunn.github.io/Hover/)
-    * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3. [Google Fonts](https://fonts.google.com/)
-    * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4. [Font Awesome](https://fontawesome.com/)
-    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5. [jQuery](https://jquery.com/)
-    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6. [Git](https://git-scm.com/)
-    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. [GitHub](https://github.com/)
-    * GitHub is used to store the projects code after being pushed from Git.
-8. [Balsamiq](https://balsamiq.com/)
-    * Balsamiq was used to create the wireframes during the design process.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - for the main page structure.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - for styling of the pages and features.
+* Code Institute GitPod Full Template - for the site basis.
+* Code Institute Sample README Template - for the README basis.
+* [Bootstrap](https://getbootstrap.com/) - for formatting and styling components of the pages.
+* [Font Awesome](https://fontawesome.com/) - for icons to enhance features.
+* [Balsamiq](https://balsamiq.com/) - for producing wireframe designs.
+* [GitHub](https://github.com/) - for file storage and deployment.
+* [GitPod](https://www.gitpod.io/) - for the Integrated Development Environment.
+* [Coolors](https://coolors.co/) - for assessing colour schemes.
+* [Google Fonts](https://fonts.google.com/) - for the site font.
+* [Pexels](https://www.pexels.com/) - for stock images.
+* Google Developer Tools - for testing, reviewing and styling the pages.
+* [WAVE](https://wave.webaim.org/) - for checking site accessibility.
+* [Jigsaw](https://jigsaw.w3.org/css-validator/) - for validating CSS code.
+* [W3](https://validator.w3.org/) - for validating HTML code.
+* Lighthouse - for testing the site.
+* [Git](https://git-scm.com/) - for version control.
 
 ## Testing
-<hr>
+***
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
